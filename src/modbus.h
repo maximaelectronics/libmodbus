@@ -1,4 +1,6 @@
 /*
+ * 2022 Modified by Maxima Electronics
+ * 
  * Copyright © 2001-2013 Stéphane Raimbault <stephane.raimbault@gmail.com>
  *
  * SPDX-License-Identifier: LGPL-2.1-or-later
@@ -289,8 +291,6 @@ MODBUS_API void modbus_set_float_dcba(float f, uint16_t *dest);
 MODBUS_API void modbus_set_float_badc(float f, uint16_t *dest);
 MODBUS_API void modbus_set_float_cdab(float f, uint16_t *dest);
 
-#include "modbus-tcp.h"
-#include "modbus-rtu.h"
 
 MODBUS_END_DECLS
 

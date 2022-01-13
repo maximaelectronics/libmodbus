@@ -72,6 +72,7 @@ case "${host_os}" in
 esac
 AM_CONDITIONAL(OS_WIN32, test "$os_win32" = "true")
 AM_CONDITIONAL(OS_QNX, test "$os_qnx" = "true")
+AM_CONDITIONAL(DISABLED_SERIAL, true)
 
 LT_INIT([disable-static win32-dll pic-only])
 AC_CHECK_HEADERS([ \

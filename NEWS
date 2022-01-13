@@ -1,3 +1,10 @@
+libmodbus 3.1.7-m (2022-01-12)
+============================
+
+- Add option to disable serial transmit
+
+Modification of original libmodbus 3.1.7
+
 libmodbus 3.1.7 (2022-01-09)
 ============================
 
